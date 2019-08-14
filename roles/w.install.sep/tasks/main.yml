@@ -1,8 +1,0 @@
----
-# tasks file for w.install.amp
- -  name: Install Symantec Endpoint Protection
-    win_package:
-     product_id: '{577FBFA6-33CB-4D9A-8286-0DF9236E5A59}'
-     path: http://iclmgmt01vg.chp.clarian.org/repo/windows_installs/IUH_SEP_Install.exe
-     arguments:
-     - /silent
