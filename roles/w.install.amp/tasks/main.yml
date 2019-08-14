@@ -1,0 +1,9 @@
+---
+# tasks file for w.install.amp
+ -  name: Install Cisco AMP
+    win_package:
+     product_id: 'Immunet Protect'
+     path: http://iclmgmt01vg.chp.clarian.org/repo/windows_installs/IUH_Amp_Install.exe
+     arguments:
+     - /R
+     - /S

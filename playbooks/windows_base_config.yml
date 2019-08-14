@@ -1,0 +1,6 @@
+## Windows Base Configuration
+- hosts: "{{ servers }}"
+  gather_facts: yes
+  roles:
+   - w.install.amp
+   - w.install.sep
